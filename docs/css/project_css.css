@@ -241,13 +241,6 @@ section {
     color: white;
 }
 
-#map, #game-board {
-    width: 100%;
-    max-width: 100%;
-    height: auto;   
-    overflow: hidden;
-}
-
 .details-container {
     flex: 2;
     display: flex;
@@ -332,6 +325,13 @@ section {
     transition: background-color 0.3s ease;
 }
 
+#map, #game-board {
+    width: 100%;
+    max-width: 100%;
+    height: auto;   
+    overflow: hidden;
+}
+
 #map {
     height: 20rem;
     width: 40rem;
@@ -397,6 +397,18 @@ section {
     }
 }
 
+@media (max-width: 768px) {
+    #game-board {
+      width: 90vw;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #game-board {
+      width: 80vw;
+    }
+  }
+
 #scrollToTopBtn {
     position: fixed;
     bottom: 20px;
@@ -441,15 +453,25 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+#mgame {
+    width: 100%;
+    overflow: hidden;
+  }
+
 #game-board {
     padding: 1%;
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-gap: 10px;
     justify-content: center;
-    margin: 20px auto;
     z-index: 1;
     position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .card {
