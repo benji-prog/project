@@ -241,6 +241,13 @@ section {
     color: white;
 }
 
+#map, #game-board {
+    width: 100%;
+    max-width: 100%;
+    height: auto;   
+    overflow: hidden;
+}
+
 .details-container {
     flex: 2;
     display: flex;
@@ -435,6 +442,7 @@ footer {
 }
 
 #game-board {
+    padding: 1%;
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-gap: 10px;
