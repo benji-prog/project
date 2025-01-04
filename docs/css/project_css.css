@@ -489,6 +489,10 @@ footer {
     transition: transform 0.3s ease;
 }
 
+.card:hover {
+    transform: scale(1.05);
+}
+
 .card.flipped {
     background-color: #4CAF50;
     transform: scale(1.1);
