@@ -242,9 +242,6 @@ section {
 }
 
 .details-container {
-    overflow: hidden;
-    position: relative;
-    max-width: 100%;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -329,9 +326,8 @@ section {
 }
 
 #map {
-    width: 100%;
-    max-width: 100%;
     height: 20rem;
+    width: 40rem;
     margin-top: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -439,7 +435,6 @@ footer {
 }
 
 #game-board {
-    padding: 1%;
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-gap: 10px;
@@ -447,9 +442,6 @@ footer {
     margin: 20px auto;
     z-index: 1;
     position: relative;
-    max-width: 100vw;
-    max-height: 100vh;
-    overflow: hidden;
 }
 
 .card {
