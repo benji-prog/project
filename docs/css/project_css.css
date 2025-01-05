@@ -43,7 +43,7 @@ body {
   }
 
   #modalContent p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     color: #555;
   }
@@ -51,7 +51,7 @@ body {
   #modalContent button {
     margin: 10px;
     padding: 12px 25px;
-    font-size: 1em;
+    font-size: 1.2em;
     cursor: pointer;
     border: none;
     border-radius: 5px;
