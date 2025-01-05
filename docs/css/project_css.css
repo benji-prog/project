@@ -311,6 +311,10 @@ section {
     transition: background-color 0.3s ease;
 }
 
+#event-button:hover {
+    background-color: #b80710;
+}
+
 #person-button {
     background-color: #003366;
     border-color: #002244;
@@ -318,11 +322,19 @@ section {
     transition: background-color 0.3s ease;
 }
 
+#person-button:hover {
+    background-color: #002a55;
+}
+
 #location-button {
     background-color: #003300;
     border-color: #002200;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
+}
+
+#location-button:hover {
+    background-color: #003D00;
 }
 
 #map, #game-board {
