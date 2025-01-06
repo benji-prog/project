@@ -10,8 +10,6 @@ body {
     padding: 0;
 }
 
-
-/* Modal Styles */
 #designGuideModal {
     display: none;
     position: fixed;
@@ -22,7 +20,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Ensure it appears above all content */
+    z-index: 9999;
   }
 
   #modalContent {
@@ -78,7 +76,6 @@ body {
     transform: scale(1.05);
   }
 
-  /* Keyframes for Fade In */
   @keyframes fadeIn {
     from {
       opacity: 0;
